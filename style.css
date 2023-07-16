@@ -111,8 +111,8 @@ main{
   header{
     padding: 20px
   }
-  .banner img{
-    width: 800px;
+  nav {
+    text-align: center;
   }
   nav ul li{
     display: none;
