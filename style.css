@@ -54,7 +54,7 @@ nav ul li a{
   color: #727272; 
   line-height: 26px;
 }
-.banner .btn{
+.btn{
   margin-bottom: 30px;
   background-color: #FF900E;
   padding: 20px 25px;
@@ -68,7 +68,38 @@ nav ul li a{
 .banner img{
   width: 100%;
 }
+/* Header section End */
 
+/* Main Section Start */
+main{
+  padding: 40px 30px;
+}
+.features{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.features-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 24px;
+}
+.features-text{
+  width: 500px;
+}
+.features-text h2{
+  font-size: 3.4em;
+}
+.color{
+  color: #FF900E;
+}
+.features-text p{
+  font-size: 1.1em;
+  color: #727272;
+  margin-top: 20px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
 
 
 
@@ -86,6 +117,17 @@ nav ul li a{
   nav ul li{
     display: none;
   }
+  
+.features{
+  padding: 10px 50px;
+  flex-direction: column;
+}
+.features-text{
+  text-align: center;
+}
+.features-img{
+  grid-template-columns: 1fr;
+}
 } 
 
 
