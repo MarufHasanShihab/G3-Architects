@@ -147,7 +147,44 @@ main{
 .features-img{
   grid-template-columns: 1fr;
 }
+.features2{
+  flex-direction: column;
+  text-align: center;
+}
 } 
+/* Facts Section */
+.facts-section{
+  margin-top: 50px;
+}
+.facts-section h1{
+  font-size: 3em;
+}
+.facts-section p{
+  margin-top: 20px;
+}
+.facts-all-iteam{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px;
+  text-align: center;
+}
+.facts-iteam{
+  border: 2px solid #FF900E;
+  padding: 35px 50px;
+  border-radius: 10px;
+}
+.facts-iteam h3{
+  font-size: 2em;
+  padding: 10px;
+  color: #727272;
+  font-weight: bold;
+}
+.facts-iteam h5{
+  font-size: 1.2em;
+  color: #727272;
+}
+/* Facts Section End */
+
 
 
 /* Medium Device */
